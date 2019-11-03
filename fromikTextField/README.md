@@ -2,10 +2,10 @@
 
 In-built React components using Formik library to for UI validations
 
-#installations:
+installations:
 `npm i FormikTextField --save` 
 
-##Usages: 
+Usages: 
 
 ```
 import {FormikTextField} from 'FormikTextField'
@@ -21,7 +21,7 @@ const CustomTextFields = props => <FormikTextField
 
 ```
 
-##Props supported:
+Props supported:
 `name` | `string` - Mandatory prop for identification of the textfield 
 
 `Name` | `Type`	| `Default	Description`
@@ -45,7 +45,7 @@ const CustomTextFields = props => <FormikTextField
 `helperText`|	`node`		The helper text content.
 
 
-####Author : `Ashif Zafar `
+#Author : `Ashif Zafar `
 
 
 
