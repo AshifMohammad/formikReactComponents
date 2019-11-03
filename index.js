@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import { Field } from "formik";
 
 
-const FormikTextField = ({ name, ...props})=>{
+const textfieldformik = ({ name, ...props})=>{
     const handleBlur = (e, field) => {
         field.onBlur(e);
         props.onBlur(e);
@@ -18,13 +18,13 @@ const FormikTextField = ({ name, ...props})=>{
 
 
 }
-FormikTextField.propTypes = {
+textfieldformik.propTypes = {
     name: PropTypes.string.isRequired,
     onBlur: PropTypes.func
 };
 
-FormikTextField.defaultProps = {
+textfieldformik.defaultProps = {
     onBlur: () => {}
 };
 
-module.exports.FormikTextField = FormikTextField
+module.exports.textfieldformik = textfieldformik
