@@ -3,12 +3,12 @@
 In-built React components using Formik library to for UI validations
 
 installations:
-`npm i textfieldformik --save` 
+`npm i FormikTextField --save` 
 
 Usages: 
 
 ``` javascript
-import {textfieldformik} from 'textfieldformik'
+import {FormikTextField} from 'FormikTextField'
 
 const CustomTextFields = props => <FormikTextField
   name="myComponentTextfield" // mandatory prop
