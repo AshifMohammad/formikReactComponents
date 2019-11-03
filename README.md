@@ -3,14 +3,14 @@
 In-built React components using Formik library to for UI validations
 
 installations:
-`npm i FormikTextField --save` 
+`npm i formiktextfield --save` 
 
 Usages: 
 
 ``` javascript
-import {FormikTextField} from 'FormikTextField'
+import {formiktextfield} from 'formiktextfield'
 
-const CustomTextFields = props => <FormikTextField
+const CustomTextFields = props => <formiktextfield
   name="myComponentTextfield" // mandatory prop
   obBlur= e => handleOnblur(e) // handle on blur
   value = 12234   // value can also be  passed from props/state
