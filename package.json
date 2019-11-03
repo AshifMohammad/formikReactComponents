@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AshifMohammad/formikReactComponents.git"
+    "url": "git+https://github.com/AshifMohammad/formikReactComponents.git"
   },
   "keywords": [
     "formik",
@@ -21,5 +21,9 @@
     "textfields"
   ],
   "author": "Ashif Zafar",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AshifMohammad/formikReactComponents/issues"
+  },
+  "homepage": "https://github.com/AshifMohammad/formikReactComponents#readme"
 }
