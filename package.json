@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "React TextField using Formik for UI validation ",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "formik": "^2.0.3",
+    "react": "^16.11.0"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
