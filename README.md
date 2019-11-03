@@ -7,8 +7,8 @@ installations:
 
 Usages: 
 
-```
-import {FormikTextField} from 'FormikTextField'
+``` javascript
+import {formikfieldtext} from 'formikfieldtext'
 
 const CustomTextFields = props => <FormikTextField
   name="myComponentTextfield" // mandatory prop
